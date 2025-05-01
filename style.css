@@ -69,6 +69,7 @@ li {
 
 header {
    height: calc(100vh - 80px); 
+   margin-bottom: 56px;
 }
 
 .header__container {
@@ -119,4 +120,28 @@ button:active {
 
 .header__img--wrapper {
   padding: 20px;
+}
+
+.container {
+    padding: 56px 0;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* 
+
+HIGHLIGHTS 
+
+*/
+
+.highlight__wrapper {
+    display: flex;
+}
+
+.highlight {
+    padding: 0 24px;
+    width: calc(100% / 3);
 }
