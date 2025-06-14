@@ -415,7 +415,7 @@ button {
 }
 
 .book {
-    width: 50%;
+    width: 25%;
 }
 
 @media  (max-width: 550px) {
@@ -432,6 +432,9 @@ button {
     .highlight:not(:last-child) {
         margin-bottom: 24px;
     }
+
+    .book {
+        width: 50%;}
         
 }
 
